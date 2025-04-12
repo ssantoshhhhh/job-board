@@ -1,0 +1,79 @@
+#headdiv{
+  background-color: rgb(0, 0, 0);
+  
+}
+
+header h1 {
+  text-align: center;
+  font-family: poppins; 
+}
+
+#jobs{ 
+  background-color: rgb(86, 86, 237);
+  border: none;
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 5mm;
+  font-family: poppins;
+  font-weight: 500;
+  cursor: pointer;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+#register{ 
+  background-color: rgb(86, 86, 237);
+  border: none;
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 5mm;
+  font-family: poppins;
+  font-weight: 500;
+  cursor: pointer;transition: 0.3s;
+
+}
+
+#login{ 
+  background-color: rgb(86, 86, 237);
+  border: none;
+  margin: 20px;
+  padding: 10px 15px;
+  border-radius: 5mm;
+  font-family: poppins;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#jobs:hover{
+  background-color: rgb(0, 0, 255);
+  padding: 15px 20px;
+  border-radius: 7mm;
+transition: 0.3s;
+}
+
+#login:hover{
+  background-color: rgb(0, 0, 255);
+  padding: 15px 20px;
+  border-radius: 7mm;
+transition: 0.3s;
+}
+
+
+#register:hover{
+  background-color: rgb(0, 0, 255);
+  padding: 15px 20px;
+  border-radius: 7mm;
+transition: 0.3s;
+}
+
+#greetmsg:hover{
+  font-family: poppins;
+  text-decoration: underline;
+  transition: 0.9s;
+
+
+}
+
+

@@ -1,0 +1,51 @@
+/* CSS File */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #ff6600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    text-align: center;
+    display: none;
+  }
+  .nav-links li {
+    display: block;
+    margin: 10px 0;
+  }
+}
